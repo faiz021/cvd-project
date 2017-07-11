@@ -1,0 +1,177 @@
+
+/*OVERWRITE BOOTSTRAP CSS HERE*/
+
+body
+{
+    webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar navbar-inverse navbar-fixed-top
+{
+    background:#0099FF;    
+     
+}
+
+.navbar-inverse
+{
+    background: rgba(73,155,234,1);
+background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+
+-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.LogOut:hover
+{
+    background-color:#207ce5;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+{
+    margin-left: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus
+{
+    background-color:#207ce5;
+    -webkit-box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+{
+    background-color:#207ce5;
+    -webkit-box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+box-shadow: 0px -2px 5px 2px rgba(0,0,0,0.2);
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color:#FFF;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a
+{
+    text-shadow: 0 0 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a
+{
+    background-image: -webkit-linear-gradient(top,#0099CC 0,#0099CC 100%);
+    background-image: -o-linear-gradient(top,#0099CC 0,#0099CC 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#0099CC),to(#0099CC));
+    background-image: linear-gradient(to bottom,#0099CC 0,#0099CC 100%);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+{
+    backround-color:#0099CC;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus
+{
+    background-color:#0066CC;
+}
+
+.navbar-inverse .navbar-toggle
+{
+    background-color:#0066FF;
+}
+
+
+.container .jumbotron, .container-fluid .jumbotron
+{
+    border-radius: 0px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:20px;
+    padding-bottom:0;
+    margin-bottom:20px;
+    margin-top: 30px;
+}
+
+.container
+{
+    padding:0;
+}
+
+.jumbotron
+{
+    padding-top:10px;
+    background-color: #E5E5E5;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.jumbotron h1
+{
+    margin-top:0;
+    border: 1px solid #CCC;
+}
+
+h1
+{
+    margin-left:20px;
+}
+
+.page-header
+{
+    margin-top: 60px;
+}
+
+footer
+{
+    position:relative;
+    bottom:0;
+    margin-bottom:20px;
+    margin-top:0px;
+    clear:both;
+    width:100%;
+    height:30px;
+    border:0px;
+}
+
+.body-content
+{
+    margin-top:0;
+    margin-bottom:0;
+    background-color:#FFF;
+    
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.container .body-content
+{
+    margin-bottom:20px;
+}
+
+body
+{
+    background-color:#F5F5F5;
+}
+
+.carousel-inner
+{
+    background-color: #E5E5E5;
+}
+
+#chartContainer
+{
+    
+}
